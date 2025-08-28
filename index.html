@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murphy's Photography - Professional Photographer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="nav">
+            <a href="#home" class="logo">Murphy's Photography</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">☰</button>
+        </nav>
+    </header>
+
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-menu-close" id="mobileMenuClose">×</button>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Creative Production of the Silent Lens</h1>
+            <p class="hero-subtitle">Professional Photography Services</p>
+            <a href="#portfolio" class="cta-button">View My Work</a>
+            <a href="https://wa.link/dy3p2x" class="cta-button">WhatsApp Me</a>
+        </div>
+        <div class="floating-camera">📷</div>
+        <div class="floating-lens">🔍</div>
+        <div class="floating-flash">💡</div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-description">
+                        My passion for visual storytelling started outdoors, 
+                        armed with just my smartphone. I began by chasing light through leaves and 
+                        capturing the quiet drama of the natural world. 
+                        This foundation in mobile nature photography taught me patience, composition, 
+                        and how to find beauty in the rawest forms. That same eye for detail and love for authentic 
+                        moments now fuels my work in portraits, events, and creative editing.
+                    </p>
+                    <p class="about-description">
+                        I'm a lifelong learner, dedicated to turning any moment, whether in a forest 
+                        or a festival—into a lasting work of art.
+                    </p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="120">0</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="6000">1000</span>
+                            <span class="stat-label">Photos Taken</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="4">0</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-photo"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="portrait">
+                    <div class="portfolio-image portrait">
+                        <div class="portfolio-overlay">
+                            <h3>Portrait Sessions</h3>
+                            <p>Professional & Personal</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="portrait2">
+                    <div class="portfolio-image portrait2">
+                        <div class="portfolio-overlay">
+                            <h3>Portrait Sessions</h3>
+                            <p>Professional & Personal</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="nature">
+                    <div class="portfolio-image nature">
+                        <div class="portfolio-overlay">
+                            <h3>Nature Shoots</h3>
+                            <p>Creative & Stylish</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="family">
+                    <div class="portfolio-image family">
+                        <div class="portfolio-overlay">
+                            <h3>Family Photos</h3>
+                            <p>Cherished Memories</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="fashion">
+                    <div class="portfolio-image fashion">
+                        <div class="portfolio-overlay">
+                            <h3>Fashion Shoots</h3>
+                            <p>Creative & Stylish</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="wedding">
+                    <div class="portfolio-image wedding">
+                        <div class="portfolio-overlay">
+                            <h3>Wedding Photography</h3>
+                            <p>Romantic & Elegant</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">👑</div>
+                    <h3>Wedding Photography</h3>
+                    <p>Complete wedding coverage from engagement to reception. Capturing every precious moment of your special day.</p>
+                    <ul class="service-features">
+                        <li>Pre-wedding shoots</li>
+                        <li>Ceremony coverage</li>
+                        <li>Reception photography</li>
+                        <li>Professional editing</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👤</div>
+                    <h3>Portrait Sessions</h3>
+                    <p>Professional headshots and personal portraits that capture your personality and style.</p>
+                    <ul class="service-features">
+                        <li>Individual portraits</li>
+                        <li>Professional headshots</li>
+                        <li>Creative sessions</li>
+                        <li>Studio & outdoor options</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3>Corporate Events</h3>
+                    <p>Professional coverage of your business events, conferences, and corporate gatherings.</p>
+                    <ul class="service-features">
+                        <li>Conference photography</li>
+                        <li>Product launches</li>
+                        <li>Team building events</li>
+                        <li>Same-day delivery</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>(Lagos, Kwara & Osun), Nigeria</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+234 905 367 8802</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>adedanieldare2@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select name="service" id="service" required>
+                                <option value="">Select a Service</option>
+                                <option value="Wedding Photography">Wedding Photography</option>
+                                <option value="Portrait Session">Portrait Session</option>
+                                <option value="Corporate Event">Corporate Event</option>
+                                <option value="Family Photos">Family Photos</option>
+                                <option value="Fashion Shoots">Fashion Shoots</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" placeholder="Tell me about your project" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>📱 Send via WhatsApp</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Murphy's Photography</h3>
+                    <p>Professional Photographer capturing life's beautiful moments in (Lagos, Kwara & Osun), Nigeria.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Murphy's Photography. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
